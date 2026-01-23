@@ -42,19 +42,20 @@ Each row in the spreadsheet is one **step**, and each step is a combination of o
 
 - Skip Column B, the *FilePath* column.
 - In Column C, the *AltText* column, describe what's visible on your map and what purpose it's serving in your narrative. 
-- In Columns D and E, *Latitude* and *Longitude*, add the coordinates for the center of your map. The easiest way to get your coordinates is to go to your location in Google Maps and right click/command+click on it. The coordinates will be at the top of the menu that appears. Click on them to copy them. Make sure that you separate the coordinates into the two columns and delete the comma between them -- latitude is the first number, and longitude is the second number.
+- In Columns E and F, *Latitude* and *Longitude*, add the coordinates for the center of your map. The easiest way to get your coordinates is to go to your location in Google Maps and right click/command+click on it. The coordinates will be at the top of the menu that appears. Click on them to copy them. Make sure that you separate the coordinates into the two columns and delete the comma between them -- latitude is the first number, and longitude is the second number.
 
 <img src="https://iris.siue.edu/wp-content/uploads/2025/02/Scrolly-tutorial-9.jpg" alt="A screenshot of Google Maps, displaying the menu that pops up when you right click on the location, with coordinates at the top" width="300"/>
 
-- In Column F, *ZoomLevel*, choose how far in you want to zoom on the map. Zoom levels range from 0 to 18, and the higher the number, the more zoomed in you’ll be. For maps, a zoom level of 4 or 5 will show a whole region of the country. A zoom level of 13 or 14 will show detail at the level of streets and buildings. You can set the zoom level for each step, so think carefully about what you’re trying to demonstrate and where you want your reader’s attention! At the bottom of this page, there’s a map where you can zoom in to the frame you want and see what the zoom level is.​
+- In Column H, *ZoomLevel*, choose how far in you want to zoom on the map. Zoom levels range from 0 to 18, and the higher the number, the more zoomed in you’ll be. For maps, a zoom level of 4 or 5 will show a whole region of the country. A zoom level of 13 or 14 will show detail at the level of streets and buildings. You can set the zoom level for each step, so think carefully about what you’re trying to demonstrate and where you want your reader’s attention! At the bottom of this page, there’s a map where you can zoom in to the frame you want and see what the zoom level is.​
 
 #### For images
 
 - To use images, you'll need to link to them from somewhere. If you have access to the GitHub repository for your story, you can upload it there. That ensures that you have a stable link that won't break. Otherwise, check with your instructor for the best place to upload it.
 - In Column B, *FilePath*, paste the File URL for your image.
 - In Column C, *AltText*, describe your image and what purpose it's serving in your narrative.
-- Skip Columns D and E, *Latitude* and *Longitude*.
-- In Column F, *ZoomLevel*, choose how far in you want to zoom on the image. Images don't need as high a zoom level as maps, and your image will get grainy if you zoom in too far. Choose a zoom level of 1 if you just want it to display as is. 
+- In Column D, *ImageOrientation* (optional), put vertical or horizontal, depending on the orientation of your image.
+- Skip Columns E and F, *Latitude* and *Longitude*.
+- In Column H, *ZoomLevel*, choose how far in you want to zoom on the image. Images don't need as high a zoom level as maps, and your image will get grainy if you zoom in too far. Choose a zoom level of 1 if you just want it to display as is. 
 - The built-in zoom goes toward the center of the image. If you want to zoom in on a different area or pan between sections of the image, your best bet is to crop the image yourself and add the different areas of the image in as individual steps. 
 - Your images will take up a big chunk of the screen, so make sure you've got a relatively high-resolution image -- ideally not less than 1200 px in either direction. Not sure how big your image is? If you've got it saved to your computer, right click and select Properties and go to the Details tab.
 
@@ -67,16 +68,17 @@ Each row in the spreadsheet is one **step**, and each step is a combination of o
 
 - In Column B, *FilePath*, paste the URL for your video.
 - In Column C, *AltText*, describe your video and what purpose it's serving in your narrative.
-- Skip Columns D, E, and F, *Latitude*, *Longitude*, and *ZoomLevel*.
+- Skip Columns D, E, F, and H, *ImageOrientation*, *Latitude*, *Longitude*, and *ZoomLevel*.
 
-### Adding text
+### Adding and customizing text
 
-Column G, *Text*, is the same for all media types. This is where you'll add your narrative content to your story. You have two options here:
+Columns G and I, *TextHorizontalPercentage* and *Text*, are the same for all media types. This is where you'll add your narrative content to your story. You have three options here:
 
 - You can add text to an existing piece of content, in which case the text will appear to the left of the media. If you go this route, try to keep your text under about 100 words per step.
-- You can add text as a standalone box with no media, in which case your text will stretch across the whole width of the page. To do this, select "Text" as your content type and leave columns B through F blank. You can have longer chunks of text in this format. (This is a good way to include your references!)
+- You can add text as a standalone box with no media, in which case your text will stretch across the whole width of the page. To do this, select "Text" as your content type and leave columns B through F blank. You can have longer chunks of text in this format. (This is a good way to include your references!) This step type gives you a block of text with no background color or dynamic elements.
+- You can also set your step type to a media step but change the TextHorizontalPercentage to 100%. This will also give you a text-only step, but it'll still have the same background color as all your other steps, and it will dynamically widen and narrow as you scroll.
 
-In both cases, you can format your text using HTML. Here are a few essentials.
+In all cases, you can format your text using HTML. Here are a few essentials.
 
 <img src="https://iris.siue.edu/wp-content/uploads/2025/02/Scrolly-tutorial-5.jpg" alt="A screenshot of a cell in the Google Sheet showing the HTML-formatted text" width="300"/> <img src="https://iris.siue.edu/wp-content/uploads/2025/02/Scrolly-tutorial-6.jpg" alt="A screenshot of the corresponding text box in the live scrolly story, with the formatting implemented" width="300"/>
 
